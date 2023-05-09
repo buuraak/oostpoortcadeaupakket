@@ -1,0 +1,50 @@
+//sections
+section.intro {
+    background-color: $primary-bg-color;
+    @media screen and (max-width: $small) {
+        padding-top: 8em;
+    }
+
+    .bg-image{
+        width: 57vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: right;
+        @media (min-width: 993px) and (max-width: 1140px) {
+            width: 50vw;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+    }
+
+
+}
+
+.menu{
+    @media (min-width: 993px) and (max-width: 1140px) {
+        display: none !important;
+    }
+}
+
+section.form-section {
+    background-color:$secondary-bg-color;
+}
+
+.mb-bg-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info1, .info2 {
+    .box-width{
+        @media screen and (min-width: 992px) {
+            max-width: 590px;
+            margin: auto;
+        }
+    }
+}
+

@@ -1,0 +1,25 @@
+.white {
+    color:white !important;
+}
+
+.black {
+    color:black !important;
+}
+
+.font-krungthep {
+    font-family: $font-family-krungthep;
+}
+
+.py-120 {
+    padding-top:120px !important;
+    padding-bottom:120px !important;
+}
+
+.link-unstyled {
+    color:white !important;
+
+    &:hover {
+        text-decoration: inherit !important;
+        color:white !important;
+    }
+}

@@ -1,0 +1,17 @@
+.btn {
+    background-color: black;
+    border: 0;
+    font-size:15px;
+    font-weight: bold;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+    &:hover, &:active, &:focus {
+        background-color: black !important;
+        border: 0 !important;
+        outline: inherit !important;
+        box-shadow: inherit !important;
+    }
+}
