@@ -2,6 +2,8 @@
 
 Simple Laravel project where users can win a goodie bag worth €100 by participating and inviting their friends. A user can participate once every month.
 
+After a successful submission the user will be added to a Google spreadsheet by the Google Spreadsheet API.
+
 Technologies this project includes:
 1. PHP Laravel
 2. Vue.js
@@ -19,6 +21,7 @@ Todo's:
 2. Prevent standard php errors to show in toastr notification.
 3. Organize HomeController.php file for better readability.
 4. Implement type declaration to functions.
+5. Randomly select a verified participant at the end of the month as winner, instead of it being manual.
 
 ## Set up
 To set up projects run the following commands in the root of the project:<br><br>
@@ -34,5 +37,3 @@ To build the CSS and JS files and to watch for any changes we can run:
 
 I used <a target="_blank" href="https://laravel.com/docs/10.x/valet">Laravel valet</a> to set up my development environment.
 <pre><code>valet link && valet secure</code></pre>
-
-
