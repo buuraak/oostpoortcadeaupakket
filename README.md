@@ -8,9 +8,11 @@ Technologies this project includes:
 3. Axios
 4. SCSS
 5. Toastr
-6. Form validation
-7. Google Sheets API
-8. <a target="_blank" href="https://github.com/Propaganistas/Laravel-Disposable-Email">Laravel Disposable Email API</a>
+6. Laravel Mailer
+7. Laravel Scheduler (To send reminders to participants who haven't verified 3 days after receiving email)
+8. Form validation
+9. Google Sheets API
+10. <a target="_blank" href="https://github.com/Propaganistas/Laravel-Disposable-Email">Laravel Disposable Email API</a>
 
 Todo's:
 1. E2e testing to check whether form submission works properly.
